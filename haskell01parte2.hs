@@ -1,2 +1,3 @@
 -- Prática 01 de Haskell - Parte 2
--- Nome: 
+-- Nome: Julio Cesar Polmann Cuencas
+
