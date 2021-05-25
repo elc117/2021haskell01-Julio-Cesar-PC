@@ -1,6 +1,20 @@
 -- Prática 01 de Haskell - Parte 1
 -- Nome: Julio Cesar Polmann Cuencas
 
+module Haskell01parte1
+(
+sumSquares,
+circleArea,
+age,
+isElderly,
+htmlItem,
+startsWithA,
+isVerb,
+isVowel,
+hasEqHeads,
+isVowel2
+) where
+
 sumSquares :: Int -> Int -> Int
 sumSquares x y = x^2 + y^2
 
