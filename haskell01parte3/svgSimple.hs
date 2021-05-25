@@ -17,10 +17,10 @@ svgCircle x y r style =
 svgAll :: String
 svgAll = 
   svgBegin 500 500 ++ 
-  (svgCircle 60 60 50 "rgb(10, 145, 32, 0.4)") ++ 
-  (svgCircle 90 90 50 "rgb(105, 14, 30, 0.4)") ++ 
+  (svgCircle 250 250 100 "rgb(10, 145, 32, 0.4)") ++ 
+  (svgCircle 250 250 50 "rgb(105, 14, 30, 0.4)") ++ 
   svgEnd
 
 main :: IO ()
 main = do
-  writeFile "circles.svg" svgAll
+  writeFile "circles2.svg" svgAll
